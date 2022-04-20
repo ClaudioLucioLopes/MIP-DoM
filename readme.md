@@ -1,6 +1,6 @@
 # MIP-DoM
 
-Dominance move (DoM) is a binary quality indicator that can be used in multi-objective and many-objective optimization to compare two solution sets obtained from different simulations. The DoM indicator can differentiate the sets for certain important features, such as convergence, spread, uniformity, and cardinality. DoM does not require any reference point or any representative Pareto solution set, and it has an intuitive and physical meaning, similar to the $\epslon$-indicator. It calculates the minimum total move of members of one set so that all elements in another set are to be dominated or identical to at least one member of the first set. 
+Dominance move (DoM) is a binary quality indicator that can be used in multi-objective and many-objective optimization to compare two solution sets obtained from different simulations. The DoM indicator can differentiate the sets for certain important features, such as convergence, spread, uniformity, and cardinality. DoM does not require any reference point or any representative Pareto solution set, and it has an intuitive and physical meaning, similar to the epslon-indicator. It calculates the minimum total move of members of one set so that all elements in another set are to be dominated or identical to at least one member of the first set. 
 
 This code is the implementation of our Mixed Integer Programming model to solve DoM, as described in [Analyzing Dominance Move (MIP-DoM) Indicator for Multi-and Many-objective Optimization](https://ieeexplore.ieee.org/document/9481257)
 
